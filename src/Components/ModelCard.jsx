@@ -27,7 +27,7 @@ const ModelCard = ({ model, cart, setCart }) => {
     };
 
     return (
-        <div key={model.id} className='flex flex-col h-full relative border border-gray-100 bg-white rounded-3xl p-6 shadow-sm transition-all hover:shadow-md hover:border-gray-200'>
+        <div key={model.id} className='flex flex-col h-full relative border border-gray-100 bg-white rounded-3xl p-6 shadow-sm transition-all hover:-translate-y-3 duration-300 ease-out hover:shadow-md hover:border-gray-200'>
 
             {model.tag && (
                 <div className={`absolute top-6 right-6 text-xs font-bold px-3 py-1.5 rounded-full shadow-sm ${tagStyles[model.tagType] || "bg-gray-100 text-gray-600"}`}>

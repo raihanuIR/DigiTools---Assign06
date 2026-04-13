@@ -2,7 +2,7 @@ import { ShoppingCart } from 'lucide-react';
 
 const NavBar = ({ cartCount }) => {
     return (
-        <div className="navbar px-50 py-4">
+        <div className="navbar px-50 py-4 fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-sm border-b border-gray-200">
             <div className="navbar-start">
                 <div className="flex items-center gap-1 font-bold text-xl">
                     <img className="" src="./DigiTools.png" />
