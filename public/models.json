@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "AI Writing Pro",
+        "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+        "price": "$29.00",
+        "period": "monthly",
+        "tag": "Best Seller",
+        "tagType": "best seller",
+        "features": [
+            "Unlimited AI generations",
+            "50+ writing templates",
+            "Grammar checker"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/2593/2593635.png"
+    },
+    {
+        "id": 2,
+        "name": "SEO Mastermind",
+        "description": "Boost your search engine rankings with real-time keyword optimization and backlink analysis.",
+        "price": "$49.99",
+        "period": "monthly",
+        "tag": "Popular",
+        "tagType": "popular",
+        "features": [
+            "Real-time keyword tracking",
+            "Competitor site audits",
+            "Weekly SEO reports"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055644.png"
+    },
+    {
+        "id": 3,
+        "name": "Visual Studio Elite",
+        "description": "All-in-one graphic design suite for social media, branding, and professional presentations.",
+        "price": "$199.00",
+        "period": "one-time",
+        "tag": "New",
+        "tagType": "new",
+        "features": [
+            "1000+ premium assets",
+            "Cloud collaboration",
+            "Export to 4K resolution"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/3616/3616215.png"
+    },
+    {
+        "id": 4,
+        "name": "CodeFlow CI/CD",
+        "description": "Streamline your development pipeline with automated testing and instant cloud deployment.",
+        "price": "$599.99",
+        "period": "yearly",
+        "tag": "Enterprise",
+        "tagType": "enterprise",
+        "features": [
+            "Unlimited build minutes",
+            "Docker container support",
+            "Advanced security scanning"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/6062/6062646.png"
+    },
+    {
+        "id": 5,
+        "name": "Social Connect",
+        "description": "Schedule and manage all your social media accounts from a single intuitive dashboard.",
+        "price": "$14.95",
+        "period": "monthly",
+        "tag": "Trending",
+        "tagType": "trending",
+        "features": [
+            "Auto-scheduling posts",
+            "Engagement analytics",
+            "Multi-platform support"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/1968/1968641.png"
+    },
+    {
+        "id": 6,
+        "name": "DataCruncher Pro",
+        "description": "Powerful data visualization tool for turning complex spreadsheets into stunning charts.",
+        "price": "$89.00",
+        "period": "yearly",
+        "tag": "Limited Deal",
+        "tagType": "popular",
+        "features": [
+            "Python integration",
+            "Interactive 3D charts",
+            "One-click data cleaning"
+        ],
+        "icon": "https://cdn-icons-png.flaticon.com/512/428/428094.png"
+    }
+]
