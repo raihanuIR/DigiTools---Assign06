@@ -12,11 +12,17 @@ const Ready = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-10">
-                    <button className="bg-white text-[#8B1DFF] px-8 py-4 rounded-full font-bold text-lg hover:bg-indigo-50 transition-colors shadow-lg">
+                    <button className="bg-white text-[#8B1DFF] px-8 py-4 rounded-full font-bold text-lg 
+                             transition-all duration-200 
+                             hover:bg-indigo-50 hover:shadow-lg 
+                             active:scale-95 active:shadow-inner">
                         Explore Products
                     </button>
 
-                    <button className="px-8 py-4 rounded-full font-bold text-lg border-2 border-white ">
+                    <button className="px-8 py-4 rounded-full font-bold text-lg border-2 border-white/30 
+                             transition-all duration-200 
+                             hover:bg-white/10 
+                             active:scale-95 active:bg-white/20">
                         View Pricing
                     </button>
                 </div>
