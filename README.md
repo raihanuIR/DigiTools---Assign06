@@ -35,6 +35,16 @@ Follow these steps to get the project running locally:
    ```bash
    git clone [https://github.com/raihanul-islam/digitools.git](https://github.com/raihanul-islam/digitools.git)
 
+Install dependencies:
+
+```bash
+npm install
+Run the development server:
+
+```bash
+npm run dev
+
+---
 
 UI Architecture
 Fixed Navbar: Uses backdrop-blur and fixed positioning for a modern glassmorphism effect.
@@ -43,7 +53,9 @@ Grid Layouts: Fully responsive grid systems for product models and pricing tiers
 
 SVG/PNG Integration: Optimized asset handling for brand-specific social media links.
 
-Developed with ❤️ by Raihanul Islam
+---
+
+Developed by Raihanul Islam
 
 CSE Student at Bangladesh University of Business and Technology
 
