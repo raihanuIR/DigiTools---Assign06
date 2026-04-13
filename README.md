@@ -35,15 +35,6 @@ Follow these steps to get the project running locally:
    ```bash
    git clone [https://github.com/raihanul-islam/digitools.git](https://github.com/raihanul-islam/digitools.git)
 
-Install dependencies:
-
-```bash
-npm install
-Run the development server:
-
-```bash
-npm run dev
-
 ---
 
 UI Architecture
