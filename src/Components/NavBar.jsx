@@ -1,6 +1,6 @@
 import { ShoppingCart } from 'lucide-react';
 
-const NavBar = () => {
+const NavBar = ({ cartCount }) => {
     return (
         <div className="navbar px-50 py-4">
             <div className="navbar-start">
@@ -30,8 +30,13 @@ const NavBar = () => {
             <div className="navbar-end gap-5">
                 <div className='flex gap-5'>
                     <div className="flex items-center  text-slate-800">
-                        <button className="p-2 hover:bg-slate-100 rounded-full transition-colors">
+                        <button className="p-2 hover:bg-slate-100 rounded-full transition-colors relative">
                             <ShoppingCart className="w-6 h-6 stroke-[1.5]" />
+                            {cartCount > 0 && (
+                                <span className="absolute top-0 right-0 bg-red-500 text-white text-[10px] font-bold h-5 w-5 rounded-full flex items-center justify-center border-2 border-white shadow-sm">
+                                    {cartCount}
+                                </span>
+                            )}
                         </button>
 
                         <button className="text-lg font-semibold hover:text-slate-600 transition-colors">

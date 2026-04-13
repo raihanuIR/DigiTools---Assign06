@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-       <NavBar /> 
+       <NavBar cartCount={cart.length} /> 
 
        <Banner />
 
