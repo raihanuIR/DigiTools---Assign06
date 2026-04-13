@@ -13,7 +13,7 @@ const Pricing = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
 
 
-                    <div className="flex flex-col p-8 rounded-3xl border border-gray-100 bg-white shadow-sm">
+                    <div className="flex flex-col p-8 rounded-3xl border border-gray-100 bg-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-3 hover:shadow-xl hover:border-purple-100">
                         <h3 className="text-2xl font-bold text-slate-900">Starter</h3>
                         <p className="text-slate-500 mt-2">Perfect for getting started</p>
                         <div className="mt-4 flex items-baseline gap-1">
@@ -33,7 +33,7 @@ const Pricing = () => {
                     </div>
 
                     
-                    <div className="relative flex flex-col p-8 rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-xl shadow-purple-200">
+                    <div className="relative flex flex-col p-8 rounded-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-xl shadow-purple-200 transition-all duration-300 ease-out hover:-translate-y-4 hover:shadow-2xl">
                         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C7] text-[#92400E] text-xs font-bold px-4 py-1.5 rounded-full shadow-sm whitespace-nowrap">
                             Most Popular
                         </div>
@@ -56,7 +56,7 @@ const Pricing = () => {
                     </div>
 
                 
-                    <div className="flex flex-col p-8 rounded-3xl border border-gray-100 bg-white shadow-sm">
+                    <div className="flex flex-col p-8 rounded-3xl border border-gray-100 bg-white shadow-sm transition-all duration-300 ease-out hover:-translate-y-3 hover:shadow-xl hover:border-purple-100">
                         <h3 className="text-2xl font-bold text-slate-900">Enterprise</h3>
                         <p className="text-slate-500 mt-2">For teams and businesses</p>
                         <div className="mt-4 flex items-baseline gap-1">
